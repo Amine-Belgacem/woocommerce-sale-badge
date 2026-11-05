@@ -1,6 +1,8 @@
 # WooCommerce Sale Badge
 
-An Elementor widget for displaying a customizable sale badge on WooCommerce product items.
+WooCommerce Sale Badge adds a customizable sale-badge widget to Elementor for WooCommerce product items. It is useful when a product layout needs sale messaging that matches the surrounding design rather than a fixed badge appearance.
+
+Set the badge text, choose an optional percentage display, and adjust prefixes, suffixes, and styling through the widget's controls. The widget is registered in a WooCommerce-specific category to keep it accessible while building compatible product layouts.
 
 ## Features
 
