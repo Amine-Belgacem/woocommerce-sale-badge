@@ -1,26 +1,22 @@
-# WooCommerce Sale Badge Widget
+# WooCommerce Sale Badge
 
-A lightweight WordPress plugin that adds a custom Elementor widget for showing a sale badge on WooCommerce product items.
+An Elementor widget for displaying a customizable sale badge on WooCommerce product items.
 
 ## Features
 
-- Adds a WooCommerce-specific Elementor widget category
-- Displays a customizable sale badge for product loop items
-- Supports text, percentage display, prefix/suffix, and styling controls
-- Works with WooCommerce and Elementor
+- Custom badge text and optional percentage display.
+- Prefix, suffix, and style controls.
+- A WooCommerce-specific category in the Elementor widget panel.
 
-## Requirements
+## Install
 
-- WordPress
-- WooCommerce
-- Elementor
+Requires WordPress, WooCommerce, and Elementor.
 
-## Installation
+1. Copy this repository into your WordPress `wp-content/plugins` directory.
+2. Activate the plugin in the WordPress Plugins screen.
+3. Open Elementor and add the **WooCommerce Sale Badge** widget to a compatible product layout.
+4. Adjust the badge text and appearance in the widget controls.
 
-1. Upload the plugin folder to your WordPress plugins directory.
-2. Activate the plugin from the WordPress admin panel.
-3. Open Elementor and look for the WooCommerce Sale Badge widget.
+## Source
 
-## Development
-
-This project is maintained as a simple plugin for WordPress/Elementor/WooCommerce.
+[woocommerce-sale-badge-widget.php](woocommerce-sale-badge-widget.php) loads the plugin. Widget registration and controls are in [includes](includes).
